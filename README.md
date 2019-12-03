@@ -20,13 +20,13 @@
 * Не нужно останавливать секундомеры. Григорий — крайне уважаемый человек, дела у таких людей всегда идут.
 
 ## Материалы для обучения: 
-*Reactjs.org
+Reactjs.org
 https://reactjs.org/
 
-*Create-react-app
+Create-react-app
 https://reactjs.org/docs/create-a-new-react-app.html
 
-*Отличное русскоязычное руководство по библиотеке
+Отличное русскоязычное руководство по библиотеке
 https://metanit.com/web/react/
 
 
