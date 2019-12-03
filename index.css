@@ -1,0 +1,65 @@
+body
+{
+    margin: 0;
+}
+
+.container
+{
+    width: 80%;
+    margin: 0 auto;
+    height: max-content;
+}
+
+header
+{
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    background-color: #fd2;
+}
+
+main
+{
+    padding-top: 15vh;
+}
+
+.show-info-switch
+{
+    display: none;
+}
+
+
+.info
+{
+    display: none;
+}
+
+.info > article
+{
+    height: 10vh;
+    margin: 4vh 0;
+    padding: 8px;
+    border: solid 1px #000;
+}
+
+.show-info-switch:checked ~ .info
+{
+    display: block;
+}
+
+.show-info
+{
+    background-color: #ffdd22;
+    padding: 6px;
+}
+
+footer
+{
+    position: fixed;
+    bottom: 0;
+    height: 5vh;
+    width: 100%;
+}
