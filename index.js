@@ -1,29 +1,14 @@
-const name = "Anna";
-const friendNames = ["Sally", "Peter"];
-const friendYears = [12, 15];
-const myLink1 = "https://vk.com/id95836019";
+const myLink1 = "";
 
-[].forEach.call(
-    document.getElementsByClassName("name"),
-    element => {
-        element.innerHTML = name;
-    });
+let counter = 0;
+const counterElement = document.querySelector("#stopwatch1");
 
-let i = 0;
-[].forEach.call(
-    document.getElementsByClassName("friend-name"),
-    element => {
-        element.innerHTML = friendNames[i];
-        i++;
-    });
+function updateCounter() {
+    counter += 1;
+    counterElement.innerHTML = counter;
+}
 
-let j = 0;
-[].forEach.call(
-    document.getElementsByClassName("friend-years"),
-    element => {
-        element.innerHTML = friendYears[j];
-        j++;
-    });
+setInterval(updateCounter, 1000);
 
 [].forEach.call(
     document.getElementsByClassName("vk-link"),

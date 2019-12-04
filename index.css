@@ -18,7 +18,8 @@ header
     align-items: center;
     height: 10vh;
     width: 100%;
-    background-color: #fd2;
+    background-color: #ff2;
+    font-size: 32px;
 }
 
 main
@@ -26,34 +27,37 @@ main
     padding-top: 15vh;
 }
 
-.show-info-switch
+.start-stopwatch
 {
-    display: none;
-}
-
-
-.info
-{
-    display: none;
-}
-
-.info > article
-{
-    height: 10vh;
-    margin: 4vh 0;
-    padding: 8px;
-    border: solid 1px #000;
-}
-
-.show-info-switch:checked ~ .info
-{
-    display: block;
-}
-
-.show-info
-{
-    background-color: #ffdd22;
+    background-color: #ff2;
     padding: 6px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.start-stopwatch:focus
+{
+    outline: none;
+}
+
+.stopwatch
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px;
+    border: solid 2px #999;
+    color: #666;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
 }
 
 footer
